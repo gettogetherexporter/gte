@@ -1,0 +1,278 @@
+.search-bar .input-group {
+    width: 100%;
+}
+
+.search-bar .form-control {
+    height: 40px;
+    color: #666666;
+    border: 1px solid #89CFF0;
+    border-radius: 4px;
+}
+
+.search-bar .input-group-append {
+    display: flex;
+}
+
+.search-bar .input-group-append select,
+.search-bar .input-group-append button {
+    height: 40px;
+    border: none;
+    background: none;
+    border-radius: 0 2px 2px 0;
+}
+
+.search-bar .input-group-append button {
+    width: 40px;
+    padding: 0 15px;
+    color: #89CFF0;
+}
+
+.search-bar .input-group-append button:hover {
+    background: #89CFF0;
+    color: #ffffff;
+}
+
+.header-slider-item {
+    position: relative;
+    display: inline-block;
+}
+
+.header-slider-item img {
+    width: 100%;
+    max-height: 400px;
+    display: block;
+}
+
+.header-slider-item .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff; /* Set text color */
+    z-index: 1; /* Set a higher z-index to make the overlay appear on top */
+    width: 100%;
+    max-width: 800px; /* Set a max-width for the overlay */
+    padding: 20px; /* Set padding to control the size of the overlay */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.header-slider-item h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header-slider-item .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.header-slider .header-slider-caption {
+    background: none;
+}
+
+.product-item .product-title {
+    background: #EDB36F;
+}
+
+.product-item .product-price {
+    background: #EDB36F;
+}
+
+.p-15 {
+    padding: 0 15px;
+}
+
+#connect-buyer1 h2 {
+    font-size: 37px;
+    color: #89CFF0;
+    font-family: revert;
+}
+
+#connect-buyer1 ul {
+    margin-left: -30px;
+}
+
+#connect-buyer1 ul li {
+    width: 32%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.get-quotes-1 p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.hm-icn9 {
+    background-position: -3px -134px;
+    left: 10px;
+    top: -5px;
+}
+
+.getQuotes .get-quotes-1 {
+    color: #347ef5;
+    font-size: 60px;
+    margin-bottom: 30px;
+    width: 32%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+/* Pop-up styles */
+
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: auto;
+}
+
+.popup-row {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Third Row */
+
+
+.label {
+     display: block;
+     margin-bottom: 5px;
+     font-weight: bold;
+ }
+
+textarea,
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.popup-row form div input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 20%;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+/* Other existing styles remain unchanged */
+
+
+#popupImageContainer img {
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Ensure image doesn't exceed its original width */
+}
+
+.popup-header-row {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px; /* Adjust padding as needed */
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.popup-close {
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.popup-header-text {
+    flex: 1;
+    text-align: center;
+}
+
+.popup-header-text h2 {
+    margin: 0;
+    color: #ff0; /* Yellow text color */
+    font-weight: bold; /* Bold text */
+}
+
+.popup-header-text p {
+    margin: 0;
+}
+
+.popup-row form div {
+    display: flex;
+}
+
+
+.popup-row form div label {
+    flex: 1; /* Take up all available space */
+    margin-right: 5px; /* Optional: Add space between label and input */
+}
+
+.popup-row form div input,
+.popup-row form div textarea,
+.popup-row form div .iti{
+    flex: 2; /* Take up twice as much space as label */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+popup-row form div select {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .popup-right {
+        text-align: left; /* Align text to the left on small screens */
+    }
+
+    .popup-row {
+        flex-direction: column; /* Stack columns on top of each other on small screens */
+    }
+
+    .popup-content {
+        max-width: 100%; /* Full width for small screens */
+        padding: 15px;
+    }
+}
+
+
+
+
+
+
